@@ -44,7 +44,7 @@ h1 {
   width: 450px;
   height: 300px;
   left: 10px;
-  top: 30px;
+  top: 10px;
   line-height: 110px;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -68,7 +68,7 @@ h1 {
 
 
 .carousel-options {
-  top: 85px;
+  top: 5px;
   text-align: center;
   color: rgb(161, 161, 161);
   position: relative;
