@@ -330,7 +330,7 @@
                             function onClick() {
                                 
                                 if( currentIndex == 0) {
-                                    window.location.href ="Projects.html";
+                                    window.location.href ="/Projekte/Projects.html"; 
                                     }
                                     if( currentIndex == 1) {
                                         window.location.href ="contact.html";
