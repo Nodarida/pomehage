@@ -594,4 +594,10 @@ html {
     }
 }
 
+@media screen and (max-width: 53em) {
+    nav a {
+        top: auto;
+        bottom: 3rem;
+    }
+}
 
