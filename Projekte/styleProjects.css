@@ -9,8 +9,8 @@ body {
 h1 {
   text-align: center;
   color: #a0a0a0;
-  font-size: 6.5em;
-  margin-top: 0.43em;
+  font-size: 5em;
+  margin-top: 1.2em;
   margin-bottom: 1.3em;
   margin-left: 0;
   margin-right: 0;
@@ -23,14 +23,14 @@ h1 {
   position: relative;
   width: 450px;
   height: 300px;
-  margin: 80px auto;
+  margin: 50px auto;
   perspective: 1000px;
   z-index: 1;
 }
 
 .carousel {
   width: 100%;
-  height: 100%;
+  height: 90%;
   position: absolute;
   transform: translateZ(-73px);
   transform-style: preserve-3d;
@@ -44,18 +44,18 @@ h1 {
   width: 450px;
   height: 300px;
   left: 10px;
-  top: 10px;
+  top: 0;
   line-height: 110px;
   color: rgb(0, 0, 0);
   text-align: center;
   transition: transform 1s, opacity 1s;
 }
 
-.carousel__cell:nth-child(9n+1) img {width: 400px; height: 300px;}
-.carousel__cell:nth-child(9n+2) img {width: 400px; height: 300px;}
-.carousel__cell:nth-child(9n+3) img {width: 400px; height: 300px;}
-.carousel__cell:nth-child(9n+4) img {width: 400px; height: 300px;}
-.carousel__cell:nth-child(9n+5) img {width: 400px; height: 300px;}
+.carousel__cell:nth-child(9n+1) img {width: 300px; height: 200px;}
+.carousel__cell:nth-child(9n+2) img {width: 300px; height: 200px;}
+.carousel__cell:nth-child(9n+3) img {width: 300px; height: 200px;}
+.carousel__cell:nth-child(9n+4) img {width: 300px; height: 200px;}
+.carousel__cell:nth-child(9n+5) img {width: 300px; height: 200px;}
 
 
 .carousel__cell:nth-child(1) { transform: rotateY(  0deg) translateZ(73px); }
@@ -68,18 +68,19 @@ h1 {
 
 
 .carousel-options {
-  top: 5px;
+  top: 15px;
   text-align: center;
-  color: rgb(161, 161, 161);
+  color: rgb(255, 255, 255);
   position: relative;
   z-index: 2;
   font-family: 'IBM Plex Sans', sans-serif;
+  font-weight:lighter;
   
 }
 
 .custom-radio-btn {
   --size: 20px;
-  border-radius: 50%;
+  border-radius: 0%;
   justify-content: center;
   
   cursor: pointer;
@@ -195,9 +196,9 @@ h1 {
   
 }
 
-@media screen and (max-width: 53em) {
+@media screen and (max-width: 43em) {
   nav a {
       top: auto;
-      bottom: 3rem;
+      bottom: 1rem;
   }
 }
