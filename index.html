@@ -9,11 +9,22 @@
         rel="stylesheet">
     <link rel="stylesheet" href="styleHome.css" />
     <link rel="stylesheet" href="styleHome2.css" />
+    <link rel="stylesheet" href="styleLoader.css" />
 
 
 </head>
 
 <body>
+
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+      <script>
+          $(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+          });
+      </script>
+
     <main>
 
         <div class="slider">
