@@ -68,7 +68,7 @@ h1 {
 
 
 .carousel-options {
-  top: 15px;
+  
   text-align: center;
   color: rgb(255, 255, 255);
   position: relative;
@@ -117,7 +117,7 @@ h1 {
 .custom-radio-btn .checkmark {
   --gap: 2px;
   --border: 2px;
-  --check-color: #9e9e9e;
+  
   width: var(--size);
   height: var(--size);
   border-radius: 50%;
@@ -125,7 +125,7 @@ h1 {
   transition: opacity 0.3s ease;
   /* changes from the video  */
   
-  border: var(--border) solid rgb(151, 151, 151);
+  
   
   position:relative;
   top: 5px;
