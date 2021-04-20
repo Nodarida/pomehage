@@ -13,6 +13,7 @@ body{
 .container{
 	max-width: 1170px;
 	margin:auto;
+	background-color: #1a1a1a;
 	
 }
 .row{
@@ -24,12 +25,13 @@ ul{
 }
 .footer{
 	background-color: #1a1a1a;
-    padding: 70px 0;
+    padding: 0px 0;
 	border-top: 2px solid #a0a0a0;
 }
 .footer-col{
    width: 25%;
    padding: 0 15px;
+   
 }
 .footer-col h4{
 	font-size: 18px;
